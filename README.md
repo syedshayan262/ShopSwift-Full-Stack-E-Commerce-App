@@ -3,87 +3,89 @@ A complete MERN + TypeScript ecommerce application with authentication, product 
 
 This project includes:
 
-Backend: Node.js, Express, MongoDB, JWT Auth, TypeScript
+1)Backend: Node.js, Express, MongoDB, JWT Auth, TypeScript
 
-Frontend: React, Zustand, REST API integration
+2)Frontend: React, Zustand, REST API integration
 
-Features: Login, Register, Products, Cart, Orders, Admin Panel
 
-Tech Stack
-Frontend
-React.js
+**Features**: Login, Register, Products, Cart, Orders, Admin Panel
 
-Zustand (State Management)
+**Tech Stack**
+**Frontend**
+1)React.js
 
-Axios
+2)Zustand (State Management)
 
-React Router
+3)Axios
 
-Custom Components
+4)React Router
+
+5)Custom Components
 
 Backend
-Node.js
+1)Node.js
 
-Express.js
+2)Express.js
 
-MongoDB + Mongoose
+3)MongoDB + Mongoose
 
-JWT Authentication
-Authentication Features
-Register new users
+4)JWT Authentication
+5)Authentication Features
+6)Register new users
 
-Login with JWT
+7)Login with JWT
 
-Protected routes
+8)Protected routes
 
-Admin-only routes
+9)Admin-only routes
 
-Token-based session handling
+10)Token-based session handling
+11)TypeScript
 
-E‑Commerce Features
-Product listing
+12)Middlewares (Auth, Admin, Error Handling)
 
-Product details
+**E‑Commerce Features**
+1)Product listing
 
-Add to cart
+2)Product details
 
-Remove from cart
+3)Add to cart
 
-Update cart quantity
+4)Remove from cart
 
-Checkout flow
+5)Update cart quantity
 
-Order creation
+6)Checkout flow
 
-API Endpoints (Short Overview)
+7)Order creation
+
+**API Endpoints (Short Overview)**
 Auth
-POST /api/auth/register
+1)POST /api/auth/register
 
-POST /api/auth/login
+2)POST /api/auth/login
 
-Products
-GET /api/products
+**Products**
+1)GET /api/products
 
-POST /api/products (Admin)
+2)POST /api/products (Admin)
 
-Cart
-GET /api/cart
+**Cart**
+1)GET /api/cart
 
-POST /api/cart/add
+2)POST /api/cart/add
 
-DELETE /api/cart/remove/:id
+3)DELETE /api/cart/remove/:id
 
-Orders
-POST /api/orders
+**Orders**
+1)POST /api/orders
 
-GET /api/orders/my-orders
+2)GET /api/orders/my-orders
 
-Testing Tools
+**Testing Tools**
 Thunder Client / Postman
 
-License
+**License**
 This project is open-source and free to use
 
-TypeScript
 
-Middlewares (Auth, Admin, Error Handling)
